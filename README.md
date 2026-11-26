@@ -35,3 +35,10 @@ To save a game, use `json.dumps(record.to_dict())`. To load one, use `GameRecord
 The `"schema": 1` field is already included.
 
 To run one game: `play_game(seed, factory) -> GameRecord`.
+
+
+Setup	Impostor win	Mean rounds
+8 players, 2 impostors (current)	84%	2.41
+8p, 2 imp, no night kill round 1	89%	3.22
+10 players, 2 impostors	80%	3.42
+10p, 2 imp, no night kill round 1	80%	4.21
